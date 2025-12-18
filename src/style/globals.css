@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=BBH+Hegarty&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'BBH Hegarty';
+  src: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=BBH+Hegarty&display=swap';
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: 'https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap';
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .font-primary {
+    font-family: 'BBH Hegarty', sans-serif;
+  }
+
+  .font-secondary {
+    font-family: 'Oswald', sans-serif;
+  }
+}
